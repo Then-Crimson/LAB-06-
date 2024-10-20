@@ -1,54 +1,38 @@
-# Astro Starter Kit: Basics
+# Proyecto: Astro + React + TypeScript
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este proyecto combina **Astro**, **React** y **TypeScript** para construir aplicaciones web modernas. El objetivo de este lab es autoevaluar cuánto has aprendido hasta el momento y asegurarte de que has continuado practicando y explorando estas tecnologías. A continuación, encontrarás los pasos para configurar este entorno, además de una breve descripción de cada tecnología y algunos enlaces útiles para profundizar más.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Tecnologías Utilizadas
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### 1. **Astro**
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Astro es un generador de sitios estáticos que permite crear proyectos web rápidos y eficientes. Está diseñado para trabajar con cualquier tecnología de frontend, incluyendo React, Vue, Svelte, entre otros.
 
-## 🚀 Project Structure
+- **Documentación de Astro**: [Astro](https://astro.build/)
 
-Inside of your Astro project, you'll see the following folders and files:
+### 2. **React**
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+React es una biblioteca de JavaScript para construir interfaces de usuario interactivas. React permite crear componentes reutilizables y gestionar el estado de la aplicación de forma eficiente.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- **Documentación de React**: [React](https://react.dev/)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### 3. **TypeScript**
 
-Any static assets, like images, can be placed in the `public/` directory.
+TypeScript es un superconjunto de JavaScript que añade tipos estáticos opcionales, lo que ayuda a mejorar la calidad del código y facilita la detección temprana de errores.
 
-## 🧞 Commands
+- **Documentación de TypeScript**: [JavaScript With Syntax For Types](https://www.typescriptlang.org/)
 
-All commands are run from the root of the project, from a terminal:
+## ¿Por qué este lab?
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Este laboratorio está diseñado para ayudarte a consolidar tu aprendizaje sobre estas tres tecnologías y aprender cómo integrarlas en un solo proyecto. Al final de este laboratorio, deberías tener una comprensión básica sobre cómo configurar y usar Astro junto con React y TypeScript. El enfoque de este proyecto es mantener el código limpio, modular y utilizar lo aprendido de manera práctica.
 
-## 👀 Want to learn more?
+## Instalación y Configuración del Proyecto
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+A continuación, se describe cómo crear un proyecto Astro con soporte para React y TypeScript.
+
+### Crear un nuevo proyecto de Astro
+
+Para comenzar, crea un nuevo proyecto de Astro. Ejecuta el siguiente comando en tu terminal para iniciar un nuevo proyecto:
+
+```bash
+npm create astro@latest
