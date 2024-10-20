@@ -1,6 +1,14 @@
 ---
-import ButtonIncrement from '../components/ButtonIncrement';
+import BuyList from '../components/BuyList'
+const buyList = [
+  'Controller',
+  'Bread',
+  'Water',
+  'Notebook',
+  'Math Book',
+  'Choco Bar',
+  'Milk'
+];
 ---
 
-<h1>Bienvenido a mi proyecto con Astro + React</h1>
-<ButtonIncrement client:visible />
+<BuyList buyList={buyList} />
